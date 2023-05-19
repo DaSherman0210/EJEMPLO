@@ -4,10 +4,11 @@
 using namespace std;
 
 #include <iostream>
-
+#include <string>
 
 int main (){
-    
+    string texto = "10.5";
+    cout << stof(texto) + 2 << endl;
 }
 
 /* #include <string.h>
